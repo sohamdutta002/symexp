@@ -1,6 +1,6 @@
 .symexp{
     background: url('https://utfs.io/f/4dbd332d-5790-4cbc-8937-caa0ab6d2862-u37fl8.jpg') no-repeat center/cover;
-    height: 100vh;
+    min-height: 100vh;
 }
 .spin{
     animation: rotateAnimation 15s infinite linear;
