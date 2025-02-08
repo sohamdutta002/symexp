@@ -5,13 +5,13 @@ import Image from 'next/image'
 
 const SymphonyOfExperiences = () => {
   return (
-    <div className='symexp font-c text-8xl p-8 text-white flex flex-col items-center justify-center'>
+    <div className='symexp font-c text-8xl p-8 text-white grid grid-col-[20px,2fr,20px] items-center justify-center'>
         <h1>Symphony Of Experiences</h1>
-        <div className="w-full h-full flex">
-            <div className="w-[50vw] overflow-hidden flex flex-col items-center justify-center em">
-                <Image src="https://utfs.io/f/3d7e218e-f420-446b-b3ce-f66833b46a65-bles7u.png" alt="Five Elementals" width={500} height={500} className='spin' />
+        <div className="grid grid-cols-2">
+            <div className="overflow-hidden em">
+                <Image src="https://utfs.io/f/3d7e218e-f420-446b-b3ce-f66833b46a65-bles7u.png" alt="Five Elementals" width={500} height={500} className='spin p-3' />
             </div>
-            <div className="w-[50vw] h-full flex flex-wrap gap-8 justify-between pr-20">
+            <div className="grid grid-cols-3">
                 <div className="flex flex-col justify-center text-3xl font-serif">
                     <NumberTicker value={6} className='text-[7rem] mb-10 font-c' /> Years
                 </div>
